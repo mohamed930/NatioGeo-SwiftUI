@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D316DF8A2BF8D88900FFEFD7 /* NatioGeoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316DF892BF8D88900FFEFD7 /* NatioGeoApp.swift */; };
-		D316DF8C2BF8D88900FFEFD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316DF8B2BF8D88900FFEFD7 /* ContentView.swift */; };
+		D316DF8C2BF8D88900FFEFD7 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316DF8B2BF8D88900FFEFD7 /* HomeScreenView.swift */; };
 		D316DF8E2BF8D88B00FFEFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D316DF8D2BF8D88B00FFEFD7 /* Assets.xcassets */; };
-		D316DF912BF8D88B00FFEFD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D316DF902BF8D88B00FFEFD7 /* Preview Assets.xcassets */; };
+		D3C0C2D52BF8D92E00848497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C0C2D42BF8D92E00848497 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D316DF862BF8D88900FFEFD7 /* NatioGeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatioGeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D316DF892BF8D88900FFEFD7 /* NatioGeoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatioGeoApp.swift; sourceTree = "<group>"; };
-		D316DF8B2BF8D88900FFEFD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D316DF8B2BF8D88900FFEFD7 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		D316DF8D2BF8D88B00FFEFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D316DF902BF8D88B00FFEFD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3C0C2D42BF8D92E00848497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,18 +51,42 @@
 		D316DF882BF8D88900FFEFD7 /* NatioGeo */ = {
 			isa = PBXGroup;
 			children = (
-				D316DF892BF8D88900FFEFD7 /* NatioGeoApp.swift */,
-				D316DF8B2BF8D88900FFEFD7 /* ContentView.swift */,
-				D316DF8D2BF8D88B00FFEFD7 /* Assets.xcassets */,
-				D316DF8F2BF8D88B00FFEFD7 /* Preview Content */,
+				D316DF972BF8D89E00FFEFD7 /* AppStarter */,
+				D316DF982BF8D8AA00FFEFD7 /* Screens */,
+				D316DF992BF8D8D400FFEFD7 /* Resources */,
 			);
 			path = NatioGeo;
 			sourceTree = "<group>";
 		};
-		D316DF8F2BF8D88B00FFEFD7 /* Preview Content */ = {
+		D316DF972BF8D89E00FFEFD7 /* AppStarter */ = {
 			isa = PBXGroup;
 			children = (
-				D316DF902BF8D88B00FFEFD7 /* Preview Assets.xcassets */,
+				D316DF892BF8D88900FFEFD7 /* NatioGeoApp.swift */,
+			);
+			path = AppStarter;
+			sourceTree = "<group>";
+		};
+		D316DF982BF8D8AA00FFEFD7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D316DF8B2BF8D88900FFEFD7 /* HomeScreenView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D316DF992BF8D8D400FFEFD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0C2D32BF8D92E00848497 /* Preview Content */,
+				D316DF8D2BF8D88B00FFEFD7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3C0C2D32BF8D92E00848497 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0C2D42BF8D92E00848497 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,7 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D316DF912BF8D88B00FFEFD7 /* Preview Assets.xcassets in Resources */,
+				D3C0C2D52BF8D92E00848497 /* Preview Assets.xcassets in Resources */,
 				D316DF8E2BF8D88B00FFEFD7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D316DF8C2BF8D88900FFEFD7 /* ContentView.swift in Sources */,
+				D316DF8C2BF8D88900FFEFD7 /* HomeScreenView.swift in Sources */,
 				D316DF8A2BF8D88900FFEFD7 /* NatioGeoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +290,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NatioGeo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NatioGeo/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DRYUUNTK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -275,6 +299,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NatioGeo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NatioGeo/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DRYUUNTK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,6 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
